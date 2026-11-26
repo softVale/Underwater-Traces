@@ -1,0 +1,17 @@
+{
+  "name": "underwater-traces",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A minimal reference implementation for fish, traces, and evidence-linked AI memory.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "node reference/demo.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0"
+  }
+}
